@@ -32,7 +32,7 @@ export class Renderer {
     function stripPage() {
       const elements = document.querySelectorAll('script, link[rel=import]');
       for (const e of Array.from(elements)) {
-        e.remove();
+          if (e.getAttribute('type') !== 'application/ld+json') { e.remove(); }
       }
     }
 
