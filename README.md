@@ -1,3 +1,11 @@
+# WB3Tech | Rendertron
+
+This is a fork of the Google Renderton repo.  The JSON-LD branch is currently being used to experiment and validate with updateds to rendertron. 
+
+Updates under experimentation
+ 1) Ability for rendertron to rendert JSON-LD
+ 2) Containerization of rendertron in Docker containers
+
 # Rendertron [![Build status](https://travis-ci.org/GoogleChrome/rendertron.svg?branch=master)](https://travis-ci.org/GoogleChrome/rendertron) [![NPM rendertron package](https://img.shields.io/npm/v/rendertron.svg)](https://npmjs.org/package/rendertron)
 
 > Rendertron is a headless Chrome rendering solution designed to render & serialise web pages on the fly.
