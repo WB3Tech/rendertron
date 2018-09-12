@@ -1,6 +1,6 @@
 # WB3Tech | Rendertron
 
-This is a fork of the Google Renderton repo.  The JSON-LD branch is currently being used to experiment and validate with updateds to rendertron. 
+This is a fork of the Google Renderton repo.  The JSON-LD branch is currently being used to experiment and validate with updateds to rendertron.
 
 Updates under experimentation
  1) Ability for rendertron to rendert JSON-LD

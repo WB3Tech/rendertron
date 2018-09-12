@@ -4,6 +4,7 @@
 
 ## [x.x.x] 2018-09-12
  * Made json-ld tags an exception to script tag removal
+ * Added Dockerfile
 
 ## [2.0.1] 2018-09-07
  * Remove testing and other files from NPM package.
