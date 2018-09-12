@@ -41,7 +41,7 @@ RUN groupadd -r pptruser && useradd -r -g pptruser -G audio,video pptruser \
 # Run everything after as non-privileged user.
 USER pptruser
 
-EXPOSE 3000
+EXPOSE 80:3000
 ENTRYPOINT ["dumb-init", "--"]
 CMD ["google-chrome-unstable"]
 CMD ["node", "rendertron/build/rendertron.js"]
